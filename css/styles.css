@@ -655,8 +655,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 7.0625rem;
-	height: 2rem;
+  
+	height: 3rem;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -772,7 +772,7 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/company_bg.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1574,8 +1574,8 @@ input[type='checkbox'] {
 /*     15. About     */
 /*********************/
 .counter {
-	padding-top: 6.875rem;
-	padding-bottom: 5.25rem;
+	padding-top: 1.875rem;
+	padding-bottom: 1.25rem;
 }
 
 .counter .image-container {
