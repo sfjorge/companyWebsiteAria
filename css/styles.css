@@ -969,10 +969,6 @@ input[type='checkbox'] {
 	background-color: #fff;
 }
 
-.img-fluid{
-	height: 220px ;
-	width: 220px ;
-}
 
 /*************************/
 /*     08. Details 1     */
@@ -1228,7 +1224,7 @@ input[type='checkbox'] {
 	margin-right: auto;
 	margin-bottom: 0.25rem;
 	margin-left: auto;
-	border-radius: 50%;
+	border-radius: 20%;
 }
 
 .slider .card .card-body {
@@ -1732,12 +1728,29 @@ input[type='checkbox'] {
 	color: #fff;
 }
 
+.footer p {
+		margin-bottom: 0.5rem;
+		color: #fff;
+}
+
 .footer p,
 .footer ul {
 	font-size: 0.875rem;
 	line-height: 1.375rem;
 }
 
+.segment-one h3{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+.segment-two h3{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
 
 /*************************/
 /*     18. Copyright     */
