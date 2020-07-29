@@ -4568,6 +4568,11 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
 }
 
+.card-image{
+  width: 220;
+  height: 220;
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
