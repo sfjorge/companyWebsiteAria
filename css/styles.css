@@ -1210,6 +1210,61 @@ input[type='checkbox'] {
 	position: relative;
 }
 
+.slider-card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	
+	position: relative;
+	background: #fff;
+	width: 100%;
+	height: 500px;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+.slider-card .content{
+	width: 300px;
+	padding: 30px;
+	font-weight: 600;
+	box-sizing: border-box;
+}
+
+.slider-card .slider-text{
+	position: relative;
+	width: 298px;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+}
+
+.slider-card .slider-text h3{
+	color: #fff;
+	font-size: 3;
+}
+
+.swiper-container {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	border: 2px solid #262626;
+}
+
 .slider .swiper-container {
 	position: static;
 	width: 90%;
@@ -1335,7 +1390,7 @@ input[type='checkbox'] {
 /*     12. Projects     */
 /************************/
 .filter {
-	padding-top: 6.5rem;
+	padding-top: 1.5rem;
 	padding-bottom: 7rem;
 }
 
