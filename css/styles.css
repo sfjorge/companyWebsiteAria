@@ -1260,9 +1260,12 @@ input[type='checkbox'] {
 .swiper-slide {
 	background-position: center;
 	background-size: cover;
+	background-color: #cfdce0;
 	width: 300px;
 	height: 300px;
-	border: 2px solid #262626;
+	padding-top: 1rem;
+	border: 0.1px solid #262626;
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .slider .swiper-container {
@@ -1483,6 +1486,15 @@ input[type='checkbox'] {
 	left: 0;
 	color: #fff;
 	font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
+}
+.filter .element-item .element-item-overlay p { 
+	position: absolute;
+	z-index: 3;
+	top: 60%;
+	right: 0;
+	left: 0;
+	color: #fff;
+	font: 700 0.8rem/1rem "Montserrat", sans-serif;
 }
 
 
@@ -2000,8 +2012,6 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 13rem;
-		padding-bottom: 7.5rem;
 	}
 
 	.header h1 {
@@ -2151,8 +2161,6 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 14rem;
-		padding-bottom: 15rem;
 	}
 
 	.header .text-container {
@@ -2178,6 +2186,20 @@ a:hover.back-to-top {
 		max-width: 17.5rem;
 		text-align: left;
 		vertical-align: top;
+		background-color: #c2fae5;
+		box-shadow: 10px 10px 5px #aaaaaa;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+		transition: all 0.3s ease;
+	}
+
+	.cards-1 .card:hover {
+		background-color: #d7f4fd;
+		box-shadow: 10px 10px 5px #aaaaaa;
+		
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
 	}
 	
 	.cards-1 div.card:nth-child(3n+2) {
@@ -2357,8 +2379,6 @@ a:hover.back-to-top {
 	
 	/* Header */
 	.header .header-content {
-		padding-top: 14.75rem;
-		padding-bottom: 17.5rem;
 	}
 	/* end of header */
 

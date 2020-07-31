@@ -8,6 +8,8 @@
 (function ($) {
     "use strict";
 
+    new WOW().init();
+
     /* Preloader */
     $(window).on('load', function () {
         var preloaderFadeOutTime = 500;
