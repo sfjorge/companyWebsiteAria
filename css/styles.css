@@ -2476,14 +2476,31 @@ a:hover.back-to-top {
   margin: 50px auto;
   background: #fff;
 }
-.animation {
-  width: auto;
-  height: 100px;
-  font-size: 0px;
-}
-.animation div {
+.slider-animation div {
+	background-color: #caedff;
   display: inline-block;
   width: auto;
   float: none;
-  padding: 0 10px;
+  margin: 0 30px;
+}
+
+.slider-animation div:hover {
+	background-color: #63bbee;
+  display: inline-block;
+  width: auto;
+  float: none;
+  margin: 0 30px;
+}
+
+.tech h4 p{
+	margin-top: 1rem;
+	margin-bottom: 0.75rem;
+	color: rgb(34, 34, 34);
+}
+
+.tech img {
+	display: block;
+	height: 3rem;
+	width: auto;
+	text-align: center !important;
 }
