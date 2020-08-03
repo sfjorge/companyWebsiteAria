@@ -1794,7 +1794,7 @@ input[type='checkbox'] {
 }
 
 .footer .text-container {
-  margin-bottom: 2.25rem;
+	margin-bottom: 2.25rem;
 }
 
 .footer h4 {
@@ -1859,6 +1859,14 @@ input[type='checkbox'] {
 
 .footer .fa-stack:hover .fa-stack-1x {
   color: #14bf98;
+}
+
+.footer .contact-footer{
+	background-color: #fff;
+	padding: 20px;
+	margin-top: -180px !important;
+	box-shadow: 2px 2px 9px 2px #113448;
+	border-radius: 5px;
 }
 
 /*************************/
