@@ -2196,10 +2196,9 @@ a:hover.back-to-top {
 	.cards-1 .card:hover {
 		background-color: #d7f4fd;
 		box-shadow: 10px 10px 5px #aaaaaa;
-		
-	-moz-transform: scale(1.15);
-	-webkit-transform: scale(1.15);
-	transform: scale(1.15);
+		-moz-transform: scale(1.15);
+		-webkit-transform: scale(1.15);
+		transform: scale(1.15);
 	}
 	
 	.cards-1 div.card:nth-child(3n+2) {
