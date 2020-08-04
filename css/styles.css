@@ -723,8 +723,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-  
-	height: 3rem;
+	height: 4rem;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -1118,6 +1117,111 @@ input[type='checkbox'] {
 	margin-left: 3.125rem;
 }
 
+/*************************/
+/*     Dev Serivices    */
+/*************************/
+
+.dev-service h2 {
+	font-size: 1.6rem;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.dev-service p{
+	font: 1000 0.7rem/1.3rem "Open Sans", sans-serif;
+}
+
+.dev-service .image-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	border-radius: 0.25rem;
+}
+
+.dev-service .image-container img {
+	height: 25rem;
+	width: auto;
+	margin: 0;
+	border-radius: 0.25rem;
+	transition: all 0.3s;
+}
+
+.dev-service .image-container:hover img {
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+} 
+
+.dev-service .dev-card {
+	background-color: #2a5d77;
+	border-radius: 10%;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-top: 0.4rem;
+}
+
+.dev-service .dev-card .card {
+	margin-bottom: 2.5rem;
+	border: none;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+.dev-service .dev-card:hover {
+	background-color: #d7f4fd;
+	border: 2px solid #2a5d77;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+.dev-service .dev-card .fa-stack {
+	width: 4rem;
+	height: 4rem;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	margin-left: auto;
+	line-height: 4rem;
+	text-align: left;
+}
+
+.dev-service .dev-card .fa-stack .hexagon {
+	position: absolute;
+	width: 4rem;
+	height: 4rem;
+	background: url('../images/hexagon-green.svg') center center no-repeat;
+	background-size: 4rem 4rem;
+}
+
+.dev-service .dev-card .fa-stack-1x {
+	color: #fff;
+	font-size: 2rem;
+}
+
+.dev-service .dev-card .card-body {
+	padding: 0;
+}
+
+.dev-service .dev-card .card-title {
+	margin-bottom: 0.625rem;
+	font-size: 0.8rem;
+}
+.dev-service .dev-card h4 {
+	color: #ffffff;
+	font: 100 0.5rem/1rem "Open Sans", sans-serif;
+}
+.dev-service .dev-card p {
+	font-size: 0.8rem;
+}
+
+.dev-service .btn-collapse {
+	text-align: center;
+	margin-bottom: 2.5rem;
+}
 
 /*************************/
 /*     09. Details 2     */
@@ -1199,10 +1303,6 @@ input[type='checkbox'] {
 	margin-top: 1.75rem;
 	margin-bottom: 0;
 	vertical-align: top;
-}
-
-.tabs #tab-2 .list-unstyled .media {
-  margin-bottom: 2rem;
 }
 
 .tabs #tab-2 .list-unstyled .media-bullet {
@@ -2531,12 +2631,6 @@ a:hover.back-to-top {
 	}
 	/* end of description */
 
-
-	/* Services */
-	.cards-2 .card {
-		max-width: 20.875rem;
-	}
-
 	.cards-2 .card-body {
 		padding: 2.25rem 2.5rem 2.125rem 2.5rem;
 	}
@@ -2554,6 +2648,15 @@ a:hover.back-to-top {
 		margin-left: 5rem;
 	}
 	/* end of details 1 */
+
+	/* development services */
+	.service .service-container {
+		margin-top: 2rem;
+	}
+
+	.service .service-text {
+		font-size: 1px;
+	}
 
 
 	/* Details 2 */
