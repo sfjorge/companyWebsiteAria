@@ -841,6 +841,7 @@ input[type='checkbox'] {
 .header {
 	background: linear-gradient(rgba(9, 53, 133, 0.3), rgba(91, 138, 182, 0.5)), url('../images/bg-mac.jpg') center center no-repeat;
 	background-size: cover;
+	padding: 0;
 }
 
 .header .header-content {
@@ -867,6 +868,14 @@ input[type='checkbox'] {
 
 .header .btn-solid-lg {
 	margin-right: 0.5rem;
+}
+
+.header .image-container {
+	background-color: rgba(228, 228, 228, 0.288);
+	padding: 1rem;
+	margin: 3rem;
+	border: 2px solid #1bd1a7;
+	border-radius: 25px;
 }
 
 
@@ -2320,8 +2329,8 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 13rem;
-		padding-bottom: 7.5rem;
+		padding-top: 11rem;
+		padding-bottom: 2rem;
 	}
 
 	.header h1 {
@@ -2471,8 +2480,8 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 14rem;
-		padding-bottom: 15rem;
+		padding-top: 11rem;
+		padding-bottom: 3rem;
 	}
 
 	.header .text-container {
@@ -2692,8 +2701,8 @@ a:hover.back-to-top {
 	
 	/* Header */
 	.header .header-content {
-		padding-top: 14.75rem;
-		padding-bottom: 17.5rem;
+		padding-top: 11rem;
+		padding-bottom: 3rem;
 	}
 	/* end of header */
 
