@@ -1153,9 +1153,34 @@ input[type='checkbox'] {
 .dev-service .image-container1 img {
 	height: 25rem;
 	width: auto;
-	margin: 0;
+	margin: 8%;
 	border-radius: 0.25rem;
 	transition: all 0.3s ease;
+}
+
+.dev-service .image-container1 .img-top {
+	position: relative;
+	z-index: 3;
+}
+
+.dev-service .image-container1 .img-bottom {
+	position: relative;
+	z-index: 2;
+	margin-top: -120%;
+	margin-left: 30%;
+}
+
+.dev-service .image-container1 .img-bg {
+	position: relative;
+	z-index: 1;
+	margin-top: -130%;
+	margin-left: -10%;
+}
+
+.dev-service .image-container1:hover img {
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
 }
 
 .dev-service .image-container2 img {
@@ -1165,10 +1190,24 @@ input[type='checkbox'] {
 	transition: all 0.3s ease;
 }
 
-.dev-service .image-container1:hover img {
-	-moz-transform: scale(1.15);
-	-webkit-transform: scale(1.15);
-	transform: scale(1.15);
+.dev-service .image-container2 .img-top {
+	position: relative;
+	margin-left: -30%;
+	z-index: 3;
+}
+
+.dev-service .image-container2 .img-bottom {
+	position: relative;
+	margin-top: -100%;
+	margin-left: -20%;
+	z-index: 2;
+}
+
+.dev-service .image-container2 .img-bg {
+	position: relative;
+	margin-top: -100%;
+	margin-left: -20%;
+	z-index: 1;
 }
 
 .dev-service .image-container2:hover img {
