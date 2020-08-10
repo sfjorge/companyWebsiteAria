@@ -879,6 +879,11 @@ input[type='checkbox'] {
 	border-radius: 25px;
 }
 
+.header .image-container img {
+	width: 100%;
+	height: auto;
+}
+
 
 /*********************/
 /*     05. Intro     */
