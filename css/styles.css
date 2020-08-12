@@ -1390,7 +1390,7 @@ input[type='checkbox'] {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
-
+/* 
 #tech-swiper{
 	background-image: transparent;
 	display: flex;
@@ -1406,16 +1406,7 @@ input[type='checkbox'] {
 	margin-bottom: auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
-}
-
-#tech-swiper .img-logo{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	height: 10rem;
-	width: 10rem;
-}
+} */
 
 
 #web-dev {
@@ -1619,7 +1610,6 @@ input[type='checkbox'] {
 }
 
 .slider-card{
-	background-image: linear-gradient(to right, #043666, #185894);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1635,7 +1625,7 @@ input[type='checkbox'] {
 	padding-bottom: 30px;
 }
 
-.slider-card .content, #tech-slider .content{
+.slider-card .content .content{
 	width: 300px;
 	font-weight: 600;
 	box-sizing: border-box;
@@ -1668,6 +1658,12 @@ input[type='checkbox'] {
 }
 
 .slider-card .img-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 30px;
+	width: 30px;
 	margin-top: 10px;
 	height: 70px;
 	width: auto;
@@ -1676,6 +1672,7 @@ input[type='checkbox'] {
 
 .slider-card .img-logo img {
 	height: 100%;
+	width: auto;
 }
 
 .slider-card h1 {
@@ -1684,6 +1681,12 @@ input[type='checkbox'] {
 	margin-top: 2.5rem;
 	text-align: center;
 }
+
+.slider-card p {
+	color: #d4d4d4;
+	text-align: center;
+}
+
 
 .slider-card span {
 	color: #49a2eb;
