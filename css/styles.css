@@ -1250,7 +1250,7 @@ input[type='checkbox'] {
 }
 
 .dev-service .image-container1 img {
-	height: 25rem;
+	height: 15rem;
 	width: auto;
 	margin: 8%;
 	border-radius: 0.25rem;
@@ -1259,6 +1259,7 @@ input[type='checkbox'] {
 
 .dev-service .image-container1 .img-top {
 	position: relative;
+	margin-top: 20%;
 	z-index: 3;
 }
 
@@ -1295,6 +1296,7 @@ input[type='checkbox'] {
 
 .dev-service .image-container2 .img-top {
 	position: relative;
+	margin-top: 30%;
 	margin-left: -10%;
 	z-index: 3;
 }
@@ -1320,8 +1322,10 @@ input[type='checkbox'] {
 } 
 
 .dev-service .dev-card {
-	background-image: linear-gradient(to right, #043666, #346fa7);
-	border-radius: 25px;
+	background-image: linear-gradient(to right, #e4e4e4, #ffffff);
+	border: 1px solid #939493;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
 	margin-left: 1rem;
@@ -1329,20 +1333,13 @@ input[type='checkbox'] {
 	padding-top: 0.4rem;
 	width: 10rem;
 	height: 8rem;
+	text-align: center;
+	box-shadow: 10px 10px 5px #aaaaaa;
 	transition: all 0.3s ease;
 }
 
-.dev-service .dev-card .card {
-	margin-bottom: 2.5rem;
-	border: none;
-	text-align: center;
-}
-
 .dev-service .dev-card:hover {
-	box-shadow: 10px 10px 5px #aaaaaa;
-	-moz-transform: scale(1.15);
-	-webkit-transform: scale(1.15);
-	transform: scale(1.15);
+	box-shadow: 0px 0px 0px #aaaaaa;
 }
 
 .dev-service .dev-card .fa-stack {
@@ -1364,7 +1361,7 @@ input[type='checkbox'] {
 }
 
 .dev-service .dev-card .fa-stack-1x {
-	color: #fff;
+	color: #000000;
 	font-size: 1rem;
 }
 
@@ -1377,7 +1374,7 @@ input[type='checkbox'] {
 	font-size: 0.8rem;
 }
 .dev-service .dev-card h4 {
-	color: #ffffff;
+	color: #000000;
 	font: 100 0.5rem/1rem "Open Sans", sans-serif;
 }
 .dev-service .dev-card p {
@@ -1388,6 +1385,32 @@ input[type='checkbox'] {
 	text-align: center;
 	margin-bottom: 2.5rem;
 }
+
+
+#web-dev {
+	margin-top: 1rem;
+}
+
+.info-card {
+	background-position: center;
+	background-size: cover;
+	height: 96%;
+	padding: 1rem;
+	border: 1px solid #aaaaaa;
+	border-radius: 25px;
+	box-shadow: 8px 10px 5px #aaaaaa;
+	transition: all 0.3s ease;
+}
+
+.info-card:hover {
+	box-shadow: 0px 0px 0px #aaaaaa;
+}
+
+.info-logo {
+	width: 70px;
+	margin-bottom: 1rem;
+}
+
 
 /*************************/
 /*     09. Details 2     */
