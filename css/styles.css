@@ -1386,6 +1386,37 @@ input[type='checkbox'] {
 	margin-bottom: 2.5rem;
 }
 
+#mobile-app-development, #web-app-development{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#tech-swiper{
+	background-image: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin-top: 3rem;
+	margin-bottom: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#tech-swiper .img-logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 10rem;
+	width: 10rem;
+}
+
 
 #web-dev {
 	margin-top: 1rem;
@@ -1604,7 +1635,7 @@ input[type='checkbox'] {
 	padding-bottom: 30px;
 }
 
-.slider-card .content{
+.slider-card .content, #tech-slider .content{
 	width: 300px;
 	font-weight: 600;
 	box-sizing: border-box;
@@ -1658,7 +1689,7 @@ input[type='checkbox'] {
 	color: #49a2eb;
 }
 
-.slider-card .swiper-slide {
+.slider-card .swiper-slide{
 	background-position: center;
 	background-size: cover;
 	background-image: linear-gradient(to bottom, #03417a, #3179bd);
@@ -1705,7 +1736,7 @@ input[type='checkbox'] {
 	background-size: 1.125rem 1.75rem;
 }
 
-.slider .card {
+.slider .card  {
 	position: relative;
 	border: none;
 	background-color: transparent;
@@ -1729,7 +1760,7 @@ input[type='checkbox'] {
 	color: black;
 }
 
-.slider .testimonial-author {
+.slider .testimonial-author  {
 	color: #484a46;
 }
 
