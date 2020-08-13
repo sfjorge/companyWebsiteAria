@@ -1413,7 +1413,7 @@ input[type='checkbox'] {
 	margin-top: 1rem;
 }
 
-.info-card {
+.dev-service .info-card {
 	background-position: center;
 	background-size: cover;
 	height: 96%;
@@ -1424,11 +1424,11 @@ input[type='checkbox'] {
 	transition: all 0.3s ease;
 }
 
-.info-card:hover {
+.dev-service .info-card:hover {
 	box-shadow: 0px 0px 0px #aaaaaa;
 }
 
-.info-logo {
+.dev-service .info-logo {
 	width: 70px;
 	margin-bottom: 1rem;
 }
@@ -1597,19 +1597,9 @@ input[type='checkbox'] {
 	background-color: #e7e5e5;
 }
 
-#slider-service h1{
-	color: white;
-}
-
-#slider-service h3{
-	color: white;
-}
-
-#slider-service p{
-	color: white;
-}
-
 .slider-card{
+	background: linear-gradient(rgba(4, 51, 139, 0.521), rgba(64, 96, 155, 0.603)), url('../images/bg-mac.jpg') center center no-repeat;
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1621,8 +1611,8 @@ input[type='checkbox'] {
 	height: 500px;
 	margin-top: 3rem;
 	margin-bottom: auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20rem;
+	padding-bottom: 15rem;
 }
 
 .slider-card .content .content{
@@ -1695,7 +1685,7 @@ input[type='checkbox'] {
 .slider-card .swiper-slide{
 	background-position: center;
 	background-size: cover;
-	background-image: linear-gradient(to bottom, #03417a, #3179bd);
+	background-color: #3179bd4b;
 	width: 300px;
 	height: 300px;
 	padding-top: 1rem;
@@ -2486,7 +2476,7 @@ a:hover.back-to-top {
 	/* Navigation */
 	.navbar-custom {
 		box-shadow: none;
-    background-image: linear-gradient(to left, #043666, #ffffff);
+		background-image: linear-gradient(to left, #043666, #ffffff);
 	}
 	
 	.navbar-custom .navbar-brand.logo-text {
@@ -2551,6 +2541,11 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
+		padding-top: 11rem;
+		padding-bottom: 2rem;
+	}
+
+	.slider-card {
 		padding-top: 11rem;
 		padding-bottom: 2rem;
 	}
@@ -2706,6 +2701,10 @@ a:hover.back-to-top {
 		padding-bottom: 3rem;
 	}
 
+	.slider-card {
+		padding-top: 11rem;
+		padding-bottom: 3rem;
+	}
 	.header .text-container {
 		margin-top: 6.5rem;
 	}
@@ -2928,6 +2927,11 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 
+	
+	.slider-card {
+		padding-top: 11rem;
+		padding-bottom: 3rem;
+	}
 
 	/* Intro */
 	.basic-1 .text-container {
