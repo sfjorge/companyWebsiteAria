@@ -1413,7 +1413,7 @@ input[type='checkbox'] {
 	margin-top: 1rem;
 }
 
-.dev-service .info-card {
+.dev-service .info-card, .tab-content .info-card {
 	background-position: center;
 	background-size: cover;
 	height: 96%;
@@ -1422,13 +1422,14 @@ input[type='checkbox'] {
 	border-radius: 25px;
 	box-shadow: 8px 10px 5px #aaaaaa;
 	transition: all 0.3s ease;
+	margin-bottom: 3rem;
 }
 
-.dev-service .info-card:hover {
+.dev-service .info-card:hover, .tab-content .info-card:hover {
 	box-shadow: 0px 0px 0px #aaaaaa;
 }
 
-.dev-service .info-logo {
+.dev-service .info-logo, .tab-content .info-logo{
 	width: 70px;
 	margin-bottom: 1rem;
 }
@@ -2874,6 +2875,7 @@ a:hover.back-to-top {
 	/* Contact */
 	.form-2 {
 		padding-top: 6.875rem;
+		margin-bottom: 8rem;
 	}
 
 	.form-2 .text-container {
